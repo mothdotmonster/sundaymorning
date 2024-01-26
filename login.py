@@ -7,9 +7,9 @@ username = input("Username: ")
 password = input("Password: ")
 
 Mastodon.create_app(
-    'AnythingGPT',
+    'sundaymorning',
     api_base_url = url,
-    website= 'https://moth.monster/projects/anything/',
+    website= 'https://github.com/mothdotmonster/sundaymorning',
     to_file = 'pytooter_clientcred.secret'
 )
 
